@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>OD/ML Application</title>
+    <style>
+      /* CSS styles */
+      html{
+      background: linear-gradient (110deg, #45f5fe 60%, #ffd900 60%);
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color:#0b6bd9
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      nav {
+        background-color: #f2f2f2;
+        height: 50px;
+        line-height: 50px;
+        text-align: right;
+      }
+      nav a {
+        display: inline-block;
+        padding: 0 10px;
+        text-decoration: none;
+      }
+      section {
+        background: linear-gradient(110deg, #7ea0ff 60%, #f0b70e 60%);
+        padding: 20px;
+        text-align: center;
+      }
+      .login-options {
+        display: flex;
+        justify-content: center;
+      }
+      .login-option {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 0 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>OD/ML Application</h1>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <section>
+      <h2>Welcome to OD</h2>
+      <p>Login to apply for OD</p>
+      <div class="login-options">
+        <div class="login-option">
+          <h3>Student</h3>
+          <img src="https://w7.pngwing.com/pngs/17/243/png-transparent-computer-icons-arshad-ayub-graduate-business-school-students-miscellaneous-logo-monochrome.png"  width="125" height="100">
+          <br>
+          <button onclick ="window.location.href='student.html'";>login</button>
+        </div>
+        <div class="login-option">
+          <h3>Faculty Advisor</h3>
+
+          <img src="https://e7.pngegg.com/pngimages/265/858/png-clipart-computer-icons-teacher-professor-education-lecturer-teacher-angle-logo.png" width="125" height="100" >
+          <br>
+          <button onclick ="window.location.href='fa.html'";>login</button>
+        </div>
+        <div class="login-option">
+          <h3>Academic Advisor</h3>
+          <img src="https://e7.pngegg.com/pngimages/265/858/png-clipart-computer-icons-teacher-professor-education-lecturer-teacher-angle-logo.png" width="125" height="100" >
+          <br>
+          <button onclick ="window.location.href='academicadvisior.html'";>login</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
