@@ -1,0 +1,8 @@
+INSTRUCTIONS
+pip install fastapi
+pip install sqlite-utils
+pip install pysqlite3
+
+to run 
+pip install pysqlite3
+
