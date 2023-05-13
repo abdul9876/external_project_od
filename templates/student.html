@@ -1,0 +1,29 @@
+<!-- student.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Dashboard</title>
+  </head>
+  <body>
+    <h1>Welcome, {{ username }}!</h1>
+    <p>This is your dashboard.</p>
+    <h2>History</h2>
+    <table>
+        <thead>
+          <tr>
+            <th>File_name</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for student in students %}
+            <tr>
+              <td>{{ student.file_name }}</td>
+              <td>{{ student.status }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      
+  </body>
+</html>

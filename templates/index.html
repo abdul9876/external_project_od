@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+    <h1>Login Page</h1>
+    <form method="POST" action="/login">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password"><br>
+
+        <label for="role">Role:</label>
+        <select name="role" id="role">
+            <option value="student">Student</option>
+            <option value="fa">Faculty Advisor</option>
+            <option value="aa">Academic Advisor</option>
+            <option value="hod">HoD</option>
+        </select><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
