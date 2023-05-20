@@ -137,7 +137,10 @@ form .fields .input-field{
     font-weight: 400;
 }
 form button:hover{
-    background-color: #265df2;
+    background-color: #0059fdb3;
+}
+form button{
+    font-size: 20px;
 }
 form button i,
 form .backBtn i{
