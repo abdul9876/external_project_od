@@ -1,0 +1,147 @@
+html{
+  margin:0 auto;
+
+}
+
+
+div {
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    margin-bottom: -20px;
+  }
+
+  header {
+    text-align: center;
+    background-image: linear-gradient(to left,rgb(8, 8, 101),rgb(104, 10, 10));
+    color: #fff;
+    padding: 20px;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  nav {
+    background-image: linear-gradient(to left,rgb(8, 8, 101),rgb(104, 10, 10));
+    color: #fff;
+     text-align:right;
+    justify-content: space-between;
+    align-items: right;
+    padding: 10px 20px;
+  }
+
+  nav ul {
+    text-align: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav li {
+
+    margin-right: 20px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .button {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .button:hover {
+    background-color: #444;
+  }
+  .box{
+    margin-left:440px;
+    margin-top: 50px;
+  }
+  .box h1{
+    color:white;
+  }
+
+    #div1{
+            height: 250px;
+            width: 400px;
+            background-color:rgb(78, 14, 241);
+            position: relative;
+            top:-20px;
+            right:350px;
+            }
+        #div2{
+            height:250px;
+            width: 400px;
+            background-color:rgb(12, 174, 244);
+            position:relative;
+            top: -270px;
+            left: 600px;
+
+            bottom: 350px;
+
+            }
+         #div3{
+            height: 240px;
+            width: 400px;
+            background-color:rgb(255, 150, 3);
+            position:relative;
+            right:350px;
+            bottom:250px;
+            }
+        #div4{
+            height: 250px;
+            width: 400px;
+            background-color:rgb(4, 4, 101);
+            position:relative;
+            left:600px;
+            bottom: 480px;
+            }
+            #div1 .button{
+              margin-top: 20px;
+              margin-left:130px;
+            }
+            #div2 .button{
+              margin-top: 20px;
+              margin-left:130px;
+            }
+            #div3 .button{
+              margin-top: 20px;
+              margin-left:130px;
+            }
+            #div4 .button{
+              margin-top: 20px;
+              margin-left:140px;
+            }
+            #div1 h1{
+              margin-left: 80px;
+            }
+            #div2 h1{
+              margin-left: 100px;
+            }
+            #div3 h1{
+              margin-left: 100px;
+            }
+            #div4 h1{
+              margin-left: 100px;
+            }
+
+
+
